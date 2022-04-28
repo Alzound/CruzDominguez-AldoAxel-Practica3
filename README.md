@@ -33,3 +33,9 @@
 ### - git push
 
 ### Con esto los cambios ya estan en tu repo remoto. 
+
+<br>
+
+## Enlace a prácticas: 
+- [Práctica netlify](https://626ad5e0d07ed4006d33030b--subtle-platypus-ce26fe.netlify.app/)
+- [Práctica en Github](https://github.com/Alzound/Alzound_Astro)
