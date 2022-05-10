@@ -40,5 +40,5 @@
 - [Práctica netlify](https://626ad5e0d07ed4006d33030b--subtle-platypus-ce26fe.netlify.app/)
 - [Práctica en Github](https://github.com/Alzound/Alzound_Astro)
 - [Práctica 5 en Vercel](https://alzound-astro.vercel.app/)
-- [Práctica 5-6-7](/CruzDominguez-AldoAxel-Practica3/ReMakers.md)
+- [Práctica 5-6-7](/ReMakers.md)
 
