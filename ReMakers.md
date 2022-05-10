@@ -1,4 +1,5 @@
 # _**ReMakers**_ (idea para sitio tipo Pinterest)
+###  ReMakers es un sitio donde la gente puede tomar juegos que ya sean algo viejos, y proponerlos para tener un remake o remaster, tomando todas las cualidades y errores del juego original y proponer mejoras. 
 ---
 <br>
 
@@ -53,6 +54,13 @@
 - juego_name
 
 ### _Categorías de videojuegos:_
+- Acción.
+- Aventura.
+- Terror. 
+- Survival. 
+- Disparos. 
+- Arcade. 
+- Romance.
 - Deportivo. 
 - Estrategia. 
 - Simulación. 
