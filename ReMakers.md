@@ -46,39 +46,46 @@
 <br>
 
 ### **Juegos**
-- juego (**PK**)
+- juego (**UQ**)
+- categoría (**CAT**)
+- juego_id (**PK**)
 - juego_date
 - juego_name
-- 
+
+### _Categorías de videojuegos:_
+- Deportivo. 
+- Estrategia. 
+- Simulación. 
+- Musicales.
 
 ### **Status**
-- status (**PK**)
-- status_id
+- status 
+- status_id (**PK**)
 - level
 
 ### **Empresas R.**
-- empresa (**PK**)
-- empresa_id
+- empresa 
+- empresa_id (**PK**)
 - contacto
 - photo
 
 ### **Distribuidores**
-- distribuidor (**PK**)
-- distribuidor_id 
+- distribuidor 
+- distribuidor_id (**PK**) 
 - photo
 - contacto 
 - user (**FK**) 
 
 
 ### **Puntuación** 
-- puntuación (**PK**)
-- puntuación_id
+- puntuación 
+- puntuación_id (**PK**)
 - nivel
 - simbólo 
 
 ### **Probabilidad** 
-- probabilidad (**PK**)
-- probabilidad_id
+- probabilidad 
+- probabilidad_id (**PK**)
 - valor
 
 
