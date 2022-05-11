@@ -15,9 +15,6 @@
 - ### Estrellas.
 - ### Puntuación.
 - ### Probabilidad de retorno del juego. (porcentaje medible)
-- ### Demografía.
-- ### Pros de un juego.
-- ### Contras de un juego.
 - ### Follows.
 - ### Países(**CAT**).
 
@@ -52,6 +49,8 @@
 - juego_id (**PK**)
 - juego_date
 - juego_name
+- probabilidad
+- puntuación
 
 ### _Categorías de videojuegos:_
 - Acción.
@@ -71,42 +70,13 @@
 - status_id (**PK**)
 - level
 
-### **Empresas R.**
-- empresa 
-- empresa_id (**PK**)
-- contacto
-- photo
+### _Categorías de Status:_
+- Seguid@r.
+- Fan.
+- Conocedor@. 
+- Maestr@.
+- Iluminad@.
 
-### **Distribuidores**
-- distribuidor 
-- distribuidor_id (**PK**) 
-- photo
-- contacto 
-- user (**FK**) 
-
-
-### **Puntuación** 
-- puntuación 
-- puntuación_id (**PK**)
-- nivel
-- simbólo 
-
-### **Probabilidad** 
-- probabilidad 
-- probabilidad_id (**PK**)
-- valor
-
-
-### **Demografía** 
-- demografía
-- demografía_id
-- país
-- edad 
-
-
-### **Pros**
-
-### **Contras** 
 
 ### **Posts**
 
@@ -129,6 +99,7 @@
 - avatar
 - birthdate
 - genre
+- demografía
 - country (**FK**)
 
 #### **Comments**
