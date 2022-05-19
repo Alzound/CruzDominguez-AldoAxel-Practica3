@@ -327,3 +327,5 @@
 - Zambia
 - Zimbabue
 --- 
+
+![Diagrama de entidades](entities.drawio.png)
