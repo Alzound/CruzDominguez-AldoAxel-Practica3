@@ -328,4 +328,4 @@
 - Zimbabue
 --- 
 
-![Diagrama de entidades](entities.drawio.png)
+![Diagrama de entidades](entities.jpg)
