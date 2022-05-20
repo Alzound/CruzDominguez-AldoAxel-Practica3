@@ -327,5 +327,70 @@
 - Zambia
 - Zimbabue
 --- 
+# Diagrama de relaciones
 
 ![Diagrama de entidades](entities.jpg)
+
+---
+
+<br>
+
+# Llenado de datos
+
+- [Tabla de Excel .xlsx](Remakers.xlsx)
+
+- [Tabla de Excel .pdf](Remakers.pdf)
+
+<br>
+
+---
+
+<br>
+
+# Modelo Entidad - Relación Herman Miller:
+
+## Entidades:
+- Colaboradores
+- Departamentos (CAT)
+- Paises (CAT)
+- Accesos
+
+## Relaciones:
+- Los Colaboradores generan Accesos (1 - M).
+- Los Colaboradores pertenecen a Departamentos (1 - 1).
+- Los Colaboradores pertenecen a Países (1 - 1).
+- Los Departamentos pertenecen Países (1 - 1).
+
+## Atributos:
+- Colaboradores
+- clave (PK)
+- nombre
+- puesto
+- correo
+- departamento (FK)
+- país (FK)
+
+## Departamentos:
+- departamento_id (PK)
+- departamento
+- país (FK)
+
+## Valores Departamentos
+- ADMON
+- VIGILANCIA
+- SERVIDORES
+- CUSTOMER SERVICES
+- etc.
+
+## Países
+- pais_id (PK)
+- pais
+
+## Valores Países
+- Brasil
+- México
+
+## Accesos
+- acceso_id (PK)
+- colaborador (FK)
+- estampa_tiempo
