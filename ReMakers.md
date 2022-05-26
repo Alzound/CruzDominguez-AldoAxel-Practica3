@@ -341,6 +341,8 @@
 
 - [Tabla de Excel .pdf](Remakers.pdf)
 
+- [Documento de entidades .pdf](remakersEntitys.pdf)
+
 <br>
 
 ---
