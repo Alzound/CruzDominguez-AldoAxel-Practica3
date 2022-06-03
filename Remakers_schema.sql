@@ -8,22 +8,22 @@ CREATE TABLE countries(
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4; 
 
 CREATE TABLE Status_Category(
-    status_id VARCHAR(255) NOT NULL,
-    level INTEGER NOT NULL PRIMARY KEY
+    status_id VARCHAR(255) NOT NULL PRIMARY KEY,
+    level INTEGER NOT NULL 
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4;
 
 CREATE TABLE Videogame_categories(
-    videogames_genre_id VARCHAR(255) PRIMARY KEY,
+    videogames_genre_id INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     genre_name VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4;
 
 CREATE TABLE Games(
-    game_id VARCHAR(255) PRIMARY KEY,
+    game_id INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     game_name VARCHAR(255) NOT NULL,
     game_date DATETIME NOT NULL,
-    genre VARCHAR(255) NOT NULL
+    genre INTEGER UNSIGNED,
      FOREIGN KEY(genre)
-    REFERENCES Videogame_categories(videogames_genre_id)
+    REFERENCES videogame_categories(videogames_genre_id)
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4;
@@ -92,9 +92,9 @@ CREATE TABLE users(
   bio VARCHAR(255),
   avatar VARCHAR(255),
   birthdate DATE,
-  genre ENUM('Hombre', 'Mujer', 'No Binario'),
+  genre ENUM('Men', 'Women', 'No-Binary'),
   country INTEGER UNSIGNED,
-  level INTEGER NOT NULL
+  level INTEGER NOT NULL,
   FOREIGN KEY (country)
     REFERENCES countries(country_id)
     ON DELETE RESTRICT
@@ -104,4 +104,6 @@ CREATE TABLE users(
     ON DELETE RESTRICT
     ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
 

@@ -343,6 +343,8 @@
 
 - [Documento de entidades .pdf](remakersEntitys.pdf)
 
+- [Esquema de entidades .png](Esquema.PNG)
+
 <br>
 
 ---
