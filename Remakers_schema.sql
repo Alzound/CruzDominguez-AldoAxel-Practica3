@@ -8,8 +8,8 @@ CREATE TABLE countries(
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4; 
 
 CREATE TABLE Status_Category(
-    status_id VARCHAR(255) NOT NULL PRIMARY KEY,
-    level INTEGER NOT NULL 
+    status_id VARCHAR(255) NOT NULL,
+    level INTEGER NOT NULL PRIMARY KEY
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4;
 
 CREATE TABLE Videogame_categories(
